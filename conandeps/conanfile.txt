@@ -1,0 +1,7 @@
+[requires]
+gmp/6.2.1
+boost/1.80.0
+
+[generators]
+BazelToolchain
+BazelDeps

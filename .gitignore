@@ -1,0 +1,48 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#pycache
+__pycache__/
+
+#bazel symlinks
+bazel-*
+
+#conan stuff except requirements
+conandeps/*
+!conandeps/conanfile.txt
+
+#vim temporary files
+*~
+
+#clang compile commands
+compile_commands.json
